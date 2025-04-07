@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: pink;
+  height: 500px;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgb(97, 22, 47);
+}
+
+.item {
+  background-color: rgb(209, 161, 161);
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+nav {
+  background-color: pink;
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: rgb(199, 129, 144);
+  color: white;
+  display: block;
+  border: 2px solid rgb(153, 65, 80);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+
+.push-right {
+  margin: auto;
+}
+
+nav li {
+    flex: auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  width: 40%;
+  margin: 20px 0;
+}
+
+.card {
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .content {
+  padding: 10px;
+  /* flex: 1 1 auto; */
+}
+
+.card footer {
+  background-color: rgb(96 139 168 / 0.2);
+  padding: 10px;
+}
+
+img {
+  max-width: 100px;
+  display: block;
+  flex: 1;
+}
+
+.media {
+  border: 2px dotted rgb(96 139 168);
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.flipped {
+    flex-direction: row-reverse;
+  }
+
+.media .content {
+  flex: 1;
+  padding: 10px;
+}
+  
+  .wrappers {
+    display: flex;
+    border: 1px solid rgb(168, 96, 126);
+  }
+  .wrappers > * {
+    padding: 10px;
+    border: none;
+    color: #fff;
+  }
+  .wrappers > input[type="text"] {
+    background-color: rgb(250, 231, 235);
+    border-right: 1px solid rgb(185, 101, 129);
+    flex: 1 1 auto;
+  }
+  .wrappers input[type="submit"] {
+    background-color: rgb(214, 153, 21);
+    color: #fff;
+  }
+  .wrappers label {
+    background-color: #af416f;
+  }
+  

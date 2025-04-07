@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/alignment/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">hey</div>
+      <div class="item">hey</div>
+      <div class="item">hey</div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3 is longer</a></li>
+        <li class="push-right"><a href="#">Page 4</a></li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+    <div class="cards">
+      <div class="card">
+        <div class="content">
+          <p>This card doesn't have much content.</p>
+        </div>
+        <footer>Card footer</footer>
+      </div>
+      <div class="card">
+        <div class="content">
+          <p>
+            This card has a lot more content which means that it defines the
+            height of the container the cards are in. I've laid the cards out
+            using grid layout, so the cards themselves will stretch to the same
+            height.
+          </p>
+        </div>
+        <footer>Card footer</footer>
+      </div>
+    </div>
+    </div>
+
+    <div class="media">
+      <div class="image">
+        <img
+          alt="A colorful balloon against a blue sky"
+          src="https://mdn.github.io/shared-assets/images/examples/balloon.jpg"
+        />
+      </div>
+      <div class="content">
+        This is the content of my media object. Items directly inside the flex
+        container will be aligned to flex-start.
+      </div>
+    </div>
+
+    <div class="media flipped">
+      <div class="image">
+        <img
+          alt="A colorful balloon against a blue sky"
+          src="https://mdn.github.io/shared-assets/images/examples/balloon.jpg"
+        />
+      </div>
+      <div class="content">
+        This is the content of my media object. Items directly inside the flex
+        container will be aligned to flex-start.
+      </div>
+    </div>
+
+    <form class="example">
+      <div class="wrappers">
+        <label for="text">Label</label>
+        <input id="text" type="text" />
+        <input type="submit" value="Send" />
+      </div>
+    </form>
+    
+
+
+  </body>
+</html>
